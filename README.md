@@ -19,7 +19,7 @@ Add this package to your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  custom_lint:
+  comment_style_lint:
     git:
       url: https://github.com/witchcraft2001/comment_style_lint.git
 ```
