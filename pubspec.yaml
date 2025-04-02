@@ -1,0 +1,14 @@
+name: comment_style_lint
+description: A custom lint rule for checking comment style
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  analyzer: ^5.0.0
+  custom_lint_builder: ^0.5.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
