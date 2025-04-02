@@ -24,6 +24,20 @@ dev_dependencies:
       url: https://github.com/witchcraft2001/comment_style_lint.git
 ```
 
+Create or update the `analysis_options.yaml` file in your project root:
+
+```yaml
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+
+custom_lint:
+  rules:
+    - comment_space_required: true
+```
+
 ## Usage
 
 The linter will automatically check your code for proper comment formatting. Here are some examples:
